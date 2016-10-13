@@ -1,0 +1,25 @@
+<!doctype html>
+<title>My application</title>
+  <h1>Hello, World!</h1>
+    Result is {{result}}
+  <body>  <br/>Enter an array of elements in a yaml format in the first form. <br/>
+         The second and the third forms accept a single value. <br/>
+	 The Result is an array containing the elements between two given values. <br/> 
+         An example input for first form is:  <br/>
+	- 2 <br/>
+	- 5 <br/>
+	- 8  <br/>
+	- 12  <br/>
+	- -3
+ </body>
+  <form action="compute" method="post">
+        <textarea name="input1" rows="10" cols="30">
+        </textarea>
+        <textarea name="input2" rows="10" cols="30">
+        </textarea>
+	 <textarea name="input3" rows="10" cols="30">
+        </textarea>
+
+        <br>
+        <input type="submit">
+  </form>
